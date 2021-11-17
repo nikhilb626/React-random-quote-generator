@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Ubuntu:wght@300&display=swap');
+
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.light{
+  width: 100%;
+  height: 100vh;
+  color:black;
+  background:rgb(235, 235, 235);
+}
+
+.dark{
+  width: 100%;
+  height: 100vh;
+  background:rgb(31, 31, 31);
+  color:rgb(235, 235, 235);
+}
+
+
+
+.qoute_container{
+  width: 90%;
+  min-height: 350px;
+  position: absolute;
+  box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.51);
+-webkit-box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.51);
+-moz-box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.51);
+  transform:translate(-50%,-50%);
+  left: 50%;
+  top:50%;
+}
+
+
+
+.qoute_container_d{
+  width: 90%;
+  min-height: 350px;
+  position: absolute;
+  box-shadow: 0px 0px 30px 3px rgba(255,255,255,0.29);
+-webkit-box-shadow: 0px 0px 30px 3px rgba(255,255,255,0.29);
+-moz-box-shadow: 0px 0px 30px 3px rgba(255,255,255,0.29);
+  transform:translate(-50%,-50%);
+  left: 50%;
+  top:50%;
+}
+
+
+.get_qoute{
+  position: absolute;
+  transform:translate(-50%,-50%);
+  left: 50%;
+  top:65%;
+
+}
+
+
+.night_mode_btn{
+  position: absolute;
+  transform:translate(-50%,-50%);
+  left: 50%;
+  top:10%;
+
+}
+
+
+.get_qoute button,.night_mode_btn button{
+  padding: 4px 8px;
+  font-size: 1rem;
+font-family: 'Ubuntu', sans-serif;
+font-weight:bold;
+
+box-shadow: 0px 0px 6px 6px rgba(0,0,0,0.15);
+-webkit-box-shadow: 0px 0px 6px 6px rgba(0,0,0,0.15);
+-moz-box-shadow: 0px 0px 6px 6px rgba(0,0,0,0.15);
+border:none;
+outline:none;
+}
+
+
+.qoute_main{
+  padding: 20px 15px;
+  width:auto;
+  height: auto;
+  font-size: 1.4rem;
+  font-family: 'Cairo', sans-serif;
+
+}
+
+
+.qoute_author{
+  text-align: right;
+  padding:20px;
+  font-size:1.4rem;
+  font-weight: bolder;
+}
+
+.night_mode_btn button i{
+  font-size: 2rem;
+  padding: 4px;
+}
